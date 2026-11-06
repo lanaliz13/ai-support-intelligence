@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 AI Support Intelligence (Gocase & GoBeauté)
+Painel analítico de inteligência de atendimento de alta performance, desenvolvido como solução AI-First para otimização operacional, categorização de contactos e suporte à decisão estratégica baseada em dados reais de e-commerce.
 
-## Getting Started
+📋 Sobre o Projeto
+Este projeto foi desenvolvido para resolver desafios críticos de suporte ao cliente nas marcas Gocase e GoBeauté, integrando um agente de IA inteligente capaz de processar bases de dados operacionais, analisar matrizes de SLA, custos por canal e propor ações táticas em tempo real para a liderança.
 
-First, run the development server:
+🛠️ Stack Tecnológica
+Frontend & Framework: Next.js (App Router, Turbopack), React e TypeScript
 
-```bash
+Estilização: Tailwind CSS para um design limpo, moderno e responsivo
+
+Motor de IA: Integração nativa com API de Inteligência Artificial para análise preditiva e estruturação de relatórios executivos
+
+Versionamento & Deploy: Git/GitHub para controlo de versão via SSH e deploy contínuo em produção na Vercel
+
+✨ Funcionalidades Principais
+Painel Executivo Interativo: Interface intuitiva para visualização de métricas operacionais e volumes de atendimento.
+
+Ações Rápidas com IA: Botões de consulta instantânea pré-configurados para análise de motivos de contacto, otimização de fluxos desnecessários e priorização de filas de atendimento.
+
+Respostas Estruturadas: Geração de relatórios analíticos focados em critérios de negócio, custos operacionais e redução de gargalos logísticos.
+
+Cache Inteligente de Respostas: Sistema interno de gestão de requisições para garantir alta velocidade de resposta e estabilidade de uso.
+
+📊 Arquitetura de Dados
+O sistema processa de forma integrada parâmetros operacionais e dicionários de dados específicos do negócio, permitindo:
+
+Cruzamento eficiente entre histórico de conversas e transações de pedidos.
+
+Separação clara entre fluxos automatizados (FAQ, rastreio, triagem) e exceções que exigem intervenção humana especializada.
+
+Definição de prioridades com base no impacto financeiro e satisfação do cliente (SLA).
+
+💻 Como Executar Localmente
+Clonar o repositório:
+
+Bash
+git clone git@github.com:lanaliz13/ai-support-intelligence.git
+cd ai-support-intelligence
+Instalar as dependências:
+
+Bash
+npm install
+Configurar as variáveis de ambiente:
+Cria um ficheiro .env.local na raiz do projeto e adiciona a tua chave da API:
+
+Snippet de código
+GROQ_API_KEY=a_tua_chave_aqui
+Iniciar o servidor de desenvolvimento:
+
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Acede a http://localhost:3000 no teu navegador.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Desenvolvido com foco em excelência técnica, engenharia de software aplicada e inteligência artificial.
